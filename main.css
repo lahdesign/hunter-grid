@@ -120,14 +120,20 @@ ul {
     
     
       nav {
-            padding-left: 0;
+        width:110%;
+        }
+        .landing-div{
+          margin-left:10%;
+          margin-right:10%;
         }
     
        .portfolio-container {
         margin: 0 auto;
+        margin-left:10%;
+        margin-right:10%;
         display: grid;
         width:100%;
-        background-color: goldenrod;
+        /* background-color: goldenrod; */
         align-items: center;
         justify-content: center;
         grid-template-columns: 1fr;
