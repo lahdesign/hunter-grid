@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6, p {
 } */
 nav {
     position: fixed;
-    width: 110%;
+    width: 105%;
     top:0px;
     z-index: 1;
     top:-10px;
