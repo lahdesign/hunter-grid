@@ -1,7 +1,14 @@
 /* *{
     border: 1px red solid;
 } */
-
+/* svg styling */
+	.st0{fill:#B46060;}
+	.st1{fill:#FFF4E0;}
+	.st2{font-family:'SukhumvitSet-SemiBold';}
+	.st3{font-size:7px;}
+	.st4{fill:#B46060;}
+	.st5{fill:none;stroke:#B46060;stroke-linecap:round;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#1a1a1a;stroke-linecap:round;stroke-miterlimit:10;}
 /* main */
 body {
     font-family: bryant-web, sans-serif;
@@ -32,16 +39,14 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 14px 40px;
     margin: auto;
 } */
-
 nav {
     position: fixed;
-    width: 100%;
+    width: 110%;
     top:0px;
     z-index: 1;
     top:-10px;
     left:-10px;
 }
-
 
 ul {
     list-style-type: none;
@@ -63,8 +68,6 @@ ul {
     text-decoration: none;
     text-transform: uppercase;
   }
-  
-  
   
   li.dropdown {
     display: inline-block;
@@ -94,7 +97,6 @@ ul {
   }
 
 /* landing */
-
 .parent-landing {
   display: grid;
   grid-template-columns: 1fr;
@@ -103,7 +105,6 @@ ul {
   justify-content: center;
   ;
   }
-  
   
       .div1 { grid-area: a;
         scale:75%;}
@@ -117,7 +118,6 @@ ul {
         scale: 75%}
       .div6 { grid-area: f;
          scale: 75%}
-    
     
       nav {
         width:110%;
@@ -172,6 +172,8 @@ ul {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+  margin-left:10%;
+  margin-right:10%;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   grid-gap: 3%;
@@ -190,8 +192,9 @@ ul {
   }
   
   .name-type { grid-area: 1 / 1 / 2 / 2; 
-    scale: 120%;
-    margin: 10%}
+    /* scale: 120%; */
+    /* margin-left:3%} */
+  }
   .land-type { grid-area: 1 / 2 / 2 / 3;
     width: 70%;
     margin: 10%}
