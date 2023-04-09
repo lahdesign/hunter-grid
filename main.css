@@ -131,11 +131,11 @@ ul {
         }
     
        .portfolio-container {
-        margin: 0 auto;
+        display: grid;
+        /* margin: 0 auto; */
         margin-left:10%;
         margin-right:10%;
-        display: grid;
-        width:100%;
+        width:90%;
         /* background-color: goldenrod; */
         align-items: center;
         justify-content: center;
